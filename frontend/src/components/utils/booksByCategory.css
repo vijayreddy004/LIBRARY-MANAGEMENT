@@ -1,0 +1,124 @@
+.catbook-container {
+  width: 76%;
+  margin: 5% 11%;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: block;
+}
+
+.cat-nav {
+  background: #95a5a682;
+  padding: 10px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 5px;
+}
+.cat-nav button {
+  background: #adbdbe;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 15px;
+  font-size: smaller;
+}
+.cat-nav button:hover {
+  cursor: pointer;
+  background-color: #c6d0d1;
+}
+
+h2 {
+  margin: 20px 0;
+  text-align: center;
+  color: white;
+  font-size: xx-large;
+  font-family: math;
+}
+
+.responsive-table {
+  li {
+    border-radius: 3px;
+    padding: 25px 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  .table-header {
+    background-color: #adbdbe;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+  }
+  .table-row {
+    background-color: #ffffff;
+    box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.1);
+  }
+  .col-1 {
+    flex-basis: 15%;
+  }
+  .col-2 {
+    flex-basis: 25%;
+  }
+  .col-3 {
+    flex-basis: 27%;
+  }
+  .col-4 {
+    flex-basis: 27%;
+  }
+  .col-5 {
+    flex-basis: 15%;
+  }
+
+  @media all and (max-width: 767px) {
+    .table-header {
+      display: none;
+    }
+    .table-row {
+    }
+    li {
+      display: block;
+    }
+    .col {
+      flex-basis: 100%;
+    }
+    .col {
+      display: flex;
+      padding: 10px 0;
+      &:before {
+        color: #6c7a89;
+        padding-right: 10px;
+        content: attr(data-label);
+        flex-basis: 50%;
+        text-align: right;
+      }
+    }
+  }
+}
+
+.no-cat-book {
+  color: black;
+  text-align: center;
+  background: #f0f8ff6e;
+  padding: 20px;
+  font-size: large;
+}
+
+/* search bar */
+.input-box {
+  position: relative;
+}
+
+.input-box-icon {
+  position: absolute;
+  right: 2%;
+  top: 20%;
+  color: #333;
+}
+
+.form-control {
+  background-color: #c6d0d1;
+}
+
+.form-control:focus {
+  background-color: #eee;
+  box-shadow: none;
+  border-color: #8f8f8f;
+}
