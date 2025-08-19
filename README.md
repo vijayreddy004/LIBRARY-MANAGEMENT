@@ -264,16 +264,8 @@ Permission is hereby granted, free of charge, to any person obtaining a copy...
 
 # Author & contact
 
-Vijay Reddy — (add email or portfolio link)
+Vijay Reddy
 GitHub: [https://github.com/vijayreddy004/LIBRARY-MANAGEMENT](https://github.com/vijayreddy004/LIBRARY-MANAGEMENT)
 
 ---
 
-## Final notes / next steps
-
-* I tailored this README as a practical, ready-to-paste root README for your repo. Replace the `TODO` placeholders with actual script names, ports, env var names, and technologies used.
-* If you want, I can now:
-
-  * Generate a finalized `README.md` with exact commands by reading your `package.json` files (paste them here or allow me to fetch them).
-  * Create an MIT `LICENSE` file.
-  * Create a small `docker-compose.yml` example to run backend + frontend + MongoDB locally.
